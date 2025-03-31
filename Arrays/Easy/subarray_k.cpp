@@ -29,16 +29,12 @@ int longestSubarrayWithSumK(vector<int>& arr, int k) {
 
 int main() {
     int n, k;
-    cout << "Enter size of array: ";
     cin >> n;
     vector<int> arr(n);
 
-    cout << "Enter elements of array: ";
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-
-    cout << "Enter target sum K: ";
     cin >> k;
 
     int result = longestSubarrayWithSumK(arr, k);
