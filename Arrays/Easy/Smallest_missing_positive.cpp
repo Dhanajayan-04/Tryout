@@ -19,7 +19,6 @@ int main() {
     for(int i=0;i<n;i++){
         cin >> arr[i];
     }
-    
     cout << "Smallest missing positive number: " << findSmallestMissingPositive(arr) << endl;
     return 0;
 }
