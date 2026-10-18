@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// TC --> o(log10(n))
+// Time Complexity --> o(log10(n)) 
 
 int main(){
 
