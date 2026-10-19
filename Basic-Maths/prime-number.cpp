@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// 
+//  boolean is prime 1
 
 bool isPrime1(int n){
 
@@ -12,7 +12,7 @@ bool isPrime1(int n){
     return true;
 }
 
-// 
+// boolean is prime 2
 
 bool isPrime2(int n){
     int cnt = 0;
