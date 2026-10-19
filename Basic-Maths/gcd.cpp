@@ -2,7 +2,7 @@
 using namespace std;
 
 // Brute Force Approach 
-// TC --> o(min(n1,n2))
+// Timr Complexity --> o(min(n1,n2))
 
 int gcd1(int n1 , int n2){
      
@@ -19,7 +19,7 @@ int gcd1(int n1 , int n2){
 }
 
 // Optimal Approach 
-// TC --> o(log min(n1,n2))
+// Time Complexity --> o(log min(n1,n2))
 
 int gcd2(int n1 , int n2){
 
